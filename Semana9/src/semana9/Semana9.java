@@ -14,8 +14,14 @@ public class Semana9 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+      public static void main(String[] args) {
+       int [] c = new int [4];
+       c[0] = 10;
+        for (int contador = 0; contador < c.length; contador++) {
+            System.out.println(c[contador]);
+            
+        }
+       
     }
     
 }
