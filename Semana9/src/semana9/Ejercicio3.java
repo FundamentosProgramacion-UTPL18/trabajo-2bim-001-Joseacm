@@ -19,7 +19,6 @@ public class Ejercicio3 {
             double suma = calificaciones_progr[0] + calificaciones_bd[contador];
 
             double promedio = suma / 2;
-            //System.out.printf("Estudiante %d\t%f\%f\%f", contador);
             promedios[contador] = promedio;
         }
         System.out.println("PROMEDIOS");
